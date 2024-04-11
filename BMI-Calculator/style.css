@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 100vh;
+    width:100%;
+    background-color: blanchedalmond;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+}
+.box{
+    border:2px solid black;
+    padding:20px;
+    background-color: rgb(255, 0, 200);
+}
+.heading{
+    text-align: center;
+}
+.gender{
+    margin-top:2rem;
+}
+.gender select{
+    margin-top:7px;
+    width:100%;
+    padding:5px;
+    border-radius:5px;
+    border:1px solid black;
+}
+.age, .height, .weight{
+    margin-top:1rem;
+}
+input{
+    margin-top:10px;
+    padding:5px;
+    width:96.5%;
+    border-radius:5px;
+    border:1px solid black;
+}
+.button{
+    text-align:center;
+    margin-top:2rem;
+}
+button{
+    width:50%;
+    padding:10px;
+    border-radius: 6px;
+    font-size:1.2rem;
+}
+button:hover{
+    color:white;
+    background-color: black;
+    transition:.67s ease all;
+}
+.result{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+p{
+    font-weight: bold;
+}
